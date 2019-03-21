@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: cache-demo
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///testdb?useSSL=true
+    username: root
+    password: 123
+  redis:
+    host: 192.168.3.201
+    port: 6379
+    password: redis-01
+    timeout: 5s
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
